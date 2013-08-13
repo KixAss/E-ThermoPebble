@@ -23,7 +23,7 @@
 		exit(json_encode(array(MSG_TYPE => MSG_TYPE_ERROR, MSG_ERROR_DESCRIPTION => $error)));
 	}
 
-	if ($_SERVER["X-Pebble-ID"] == "36K012")
+	if ($_SERVER["X-Pebble-ID"] == "")
 	{
 		$post = "username=&password=&remember=1";
 	}
@@ -47,6 +47,7 @@
 	$data = json_decode(curl_exec($ch));
 
 	$token = $data->token;
+
 
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -142,4 +143,7 @@
 
 	$output[MSG_TEMP_CURRENT] = $data->temperature2 . "* / " . $data->temperature1 . "*";
 	$output[MSG_TEMP_STATUS] = $config;
+
+	echo json_encode($output);
+
 ?>
