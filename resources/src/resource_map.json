@@ -1,0 +1,46 @@
+{
+    "media": [
+        {
+            "defName": "IMAGE_TEMP_VT",
+            "type": "png",
+            "file": "images/vt.png"
+        },
+        {
+            "defName": "IMAGE_TEMP_REST",
+            "type": "png",
+            "file": "images/icon_rust-f0996a974155bcc3b39ba62ce2e988e4.png"
+        },
+        {
+            "defName": "IMAGE_TEMP_COMFORT",
+            "type": "png",
+            "file": "images/icon_comfort-acab77f08046c0ed65a6c1da5c638f12.png"
+        },
+        {
+            "defName": "IMAGE_TEMP_AV",
+            "type": "png",
+            "file": "images/icon_antivorst-af3ff371e7c44b7f28df65b4aaa92a9a.png"
+        },
+        {
+            "defName": "IMAGE_MENU_ICON",
+            "type": "png",
+            "file": "images/temp.png"
+        },
+        {
+            "defName": "IMAGE_BUTTON_SETUP",
+            "type": "png",
+            "file": "images/setup.png"
+        },
+        {
+            "defName": "IMAGE_BUTTON_DOWN",
+            "type": "png",
+            "file": "images/down.png"
+        },
+        {
+            "defName": "IMAGE_BUTTON_UP",
+            "type": "png",
+            "file": "images/up.png"
+        }
+    ],
+    "friendlyVersion": "VERSION",
+    "versionDefName": "APP_RESOURCES"
+}
